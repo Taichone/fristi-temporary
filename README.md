@@ -1,14 +1,14 @@
 # fristi-temporary
 
 ```
-mkdir -p ~/.local/share/applications
+C++ で、ほとんど環境構築不要にして、簡単な電卓 CLI アプリを開発してください。
+`1 + 3` と入力すると 4 と出力し、
+`1 - 2 * 3 / 3` と入力すると -1 と出力するようなものです。
+複数のディレクトリ、ファイルに分割して、綺麗な設計にしてください。他にも機能を詰め込んでください。
 
-cat <<EOF > ~/.local/share/applications/cursor.desktop
-[Desktop Entry]
-Name=Cursor
-Exec=$HOME/Downloads/cursor.AppImage --no-sandbox
-Icon=cursor
-Type=Application
-Categories=Development;
-EOF
+詳細にエラーを解消してください。
+
+に関してユニットテストを作成し、実行して全て通るテストになるまでテストを修正し続けてください。
+
+
 ```
